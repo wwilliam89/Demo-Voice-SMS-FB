@@ -13,8 +13,8 @@ def get_capability_token():
     """Respond to incoming requests."""
 
     # Find these values at twilio.com/console
-    account_sid = 'ACb6668bf93d26af3fc8e3f632bd0bdaba'
-    auth_token = '2976634966b7b78a332063b4368eedb6'
+    account_sid = 'ASID'
+    auth_token = 'ATOKEN'
 
     capability = ClientCapabilityToken(account_sid, auth_token)
 
