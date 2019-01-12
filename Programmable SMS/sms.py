@@ -28,8 +28,8 @@ client = Client(account_sid, auth_token)
 # message = client.messages \
 #     .create(
 #          body='Hello from WhatsApp!',
-#          from_='whatsapp:+14155238886',
-#          to='whatsapp:+15105574281'
+#          from_='whatsapp:e164',
+#          to='whatsapp:e164'
 #      )
 
 # print(message.sid)
