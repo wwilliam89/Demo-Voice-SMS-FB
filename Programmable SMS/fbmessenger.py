@@ -7,10 +7,10 @@ from twilio.rest import Client
 app = Flask(__name__)
 
 #Your Account Sid and Auth Token from twilio.com/user/account
-account_sid = "AC173e3b0598b2275eccc2ff6084fa9857"
-auth_token  = "7ac4df7dde48ca3eb6842de4462a6bf4"
-workspace_sid = "WS32764642b691ff8bc0bdac556cbece9a"
-workflow_sid = "WWd32ba9e9150dccbe01bf7c829a2ef739"
+account_sid = "ASID"
+auth_token  = "ATOKEN"
+workspace_sid = "WSID"
+workflow_sid = "WFSID"
 
 client = Client(username=account_sid, password=auth_token)
 
